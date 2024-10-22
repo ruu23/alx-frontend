@@ -1,0 +1,46 @@
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+:root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+  --family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --size-small: 1.2rem;
+  --size-medium: 1.6rem;
+  --size-large: 1.8rem;
+  --size-x-large: 2.3rem;
+  --size-xx-large: 4.8rem;
+}
+
+body {
+  color: var(--text-color);
+  font-family: var(--family-base);
+  font-size: var(--size-medium);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--family-title);
+}
+
+a {
+  color: var(--text-color);
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.card-category {
+  color: var(--color-primary);
+}
+
+.section-tagline {
+  color: var(--color-primary);
+}
