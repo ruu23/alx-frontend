@@ -1,9 +1,4 @@
-/* Pseudo Classes on anchor elements */
-
-html {
-  scroll-behavior: smooth;
-  font-size: 62.5%;
-}
+/* add pseudo classes*/
 
 :root {
   --color-primary: #d73953;
@@ -30,11 +25,14 @@ html {
   --line-height-big: 1.8;
 
   --section-header-align: center;
-
   --section-tagline-transform: uppercase;
-
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 body {
