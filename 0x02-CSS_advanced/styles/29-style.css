@@ -670,7 +670,7 @@ ul.row {
   left: var(--header-logo-link-left);
 }
 
-.nav .nav-link ::before {
+.nav .nav-link:before {
   content: "";
   position: absolute;
   top: 0;
@@ -680,7 +680,7 @@ ul.row {
   height: 20%;
 }
 
-.nav .nav-link .nav-item:hover ::before {
+.nav .nav-link .nav-item:hover:before {
   background-color: var(--color-primary);
   width: 100%;
 }
